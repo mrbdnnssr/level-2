@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap typogarphy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body  data-bs-theme="light">
+    <button onclick=mouseclick()>ganti tema</button>
+    <h1>Hello, world!</h1>
+    <div class="h1">ini bootstrap h1</div>
+    <div class="h2">ini bootstrap h2</div>
+    <div class="h3">ini bootstrap h3</div>
+    <div class="h4">ini bootstrap h4</div>
+    <div class="h5">ini bootstrap h5</div>
+    <div class="h6">ini bootstrap h6</div>
+    <div class="display-1">ini bootstrap display-1</div>
+    <div class="display-2">ini bootstrap display-2</div>
+    <div class="display-3">ini bootstrap display-3</div>
+    <div class="display-4">ini bootstrap display-4</div>
+    <div class="display-5">ini bootstrap display-5</div>
+    <div class="display-6">ini bootstrap display-6</div>
+    
+    <div class="text-primary display-4">ini warna biru</div>
+    <div class="text-danger">ini warna merah</div>
+
+    <div class="text-dark display-4 text-opacity-50">ini transparan</div>
+    <div class="text-danger display-4 bg-warning">ini background color</div>
+
+    <script>
+    let tema = document.body
+    function mouseclick(){
+       if (tema .setAttribute("data-bs-theme")=="light")
+            tema .setAttribute("data-bs-theme","dark"){
+        }else{
+            tema .setAttribute("data-bs-theme","light")
+        }
+
+
+    }
+    
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
